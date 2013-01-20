@@ -1,5 +1,15 @@
 package wordwrapkata;
 
+/**
+ * See <a href="http://thecleancoder.blogspot.com/2010/10/craftsman-62-dark-path.html">The Craftsman
+ * 62, The Dark Path</a> and
+ * <a href="http://cleancoder.posterous.com/the-transformation-priority-premise">The Transformation
+ * Priority Premise</a>.
+ * <p>
+ * For a different point of view see <a
+ * href="http://steelypip.wikidot.com/inductive-v-abstract-design">Inductive versus Abstract
+ * Design</a>.
+ */
 public class Wrapper {
 
     private final StringBuilder sb;
