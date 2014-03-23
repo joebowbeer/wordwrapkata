@@ -1,39 +1,17 @@
 package wordwrapkata;
 
-import static org.hamcrest.CoreMatchers.is;
-import org.junit.After;
-import org.junit.AfterClass;
-import static org.junit.Assert.assertThat;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 import static wordwrapkata.Wrapper.wrap;
 
 /**
- * Tests {@link Wrapper#wrap(java.lang.String, int)}.
+ * Tests {@link Wrapper#wrap(String, int)}.
  */
 public class WrapperTest {
-    
-    public WrapperTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
 
     @Rule
     public ExpectedException exception = ExpectedException.none();
